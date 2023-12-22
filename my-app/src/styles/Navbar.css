@@ -1,0 +1,31 @@
+.nav-bar {
+    width: 100%;
+    position: sticky;
+    background-color: rgb(250, 192, 203);
+    box-shadow: rgb(0 0 0 / 12%) 0 1px 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:10px 20px;
+}
+
+.logo {
+    height: 50px;
+    width: 56px;
+    margin: 10px;
+}
+
+.text {
+    flex-grow: 1;
+    text-align: center;
+    margin: 0px;
+}
+.logout {
+    border: none;
+    cursor: pointer;
+    color: #ff69b4;
+    text-decoration: underline;
+    padding: 0;
+    background-color:transparent ;
+
+}
